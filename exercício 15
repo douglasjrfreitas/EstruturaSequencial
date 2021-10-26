@@ -1,0 +1,14 @@
+"""Exercício 15"""
+
+valor_horas = float(input('Digite o valor de sua hora trabalhada:'))
+horas_trabalhadas = float(input('Digite as Horas Trabalhadas: '))
+salario_bruto = valor_horas * horas_trabalhadas
+inss = salario_bruto * 1.08 - salario_bruto
+irpf = salario_bruto * 1.11 - salario_bruto
+sindicato = salario_bruto * 1.05 - salario_bruto
+salario_liquido = salario_bruto - inss - irpf -sindicato
+print(f'Seu salário bruto mensal é de: R$ {salario_bruto:.2f} reais.')
+print(f'Pagou de IR(11%) : R$ {irpf:.2f} reais.')
+print(f'Pagou de INSS(8%) :  R$ {inss:.2f} reais.')
+print(f'Pagou de Sindicato(5%) : R$ {sindicato:.2f} reais.')
+print(f'O seu salário liquido é : R$ {salario_liquido:.2f} reais.')
