@@ -1,0 +1,7 @@
+"""Exercício 13"""
+
+h = float(input('Digite a sua altura (Exemplo: 1.80): '))
+homem = (72.7 * h) - 58
+mulher =(62.1 * h) - 44.7
+print(f'O seu peso ideal caso seja homem é {homem:.2f} kg.')
+print(f'O seu peso ideal caso seja mulher é {mulher:.2f} kg.')
