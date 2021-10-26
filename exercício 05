@@ -1,0 +1,5 @@
+"""Exercício 5"""
+
+n = float(input('Digite um valor em metros (x.xx) : '))
+centimetros = n * 1000
+print(f'Você digitou {n} metros, que equivale a {centimetros:.0f} centimetros')
