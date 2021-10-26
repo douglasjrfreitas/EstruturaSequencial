@@ -1,0 +1,5 @@
+"""Exercício 10"""
+
+temp_celsius = float(input('Digite a temperatura em ºC: '))
+grau_f = (temp_celsius * 9 / 5) + 32
+print(f'A temperatura {temp_celsius:.1f} ºC é {grau_f:.1f} ºF')
