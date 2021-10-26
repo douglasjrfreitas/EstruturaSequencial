@@ -1,0 +1,6 @@
+"""Exercício 8"""
+
+salario = float(input('Digite o valor que você ganha por hora R$: '))
+horas_trabalhadas = int(input('Digite quantas horas você trabalha por mês (exemplo 220): '))
+salario_mes = salario * horas_trabalhadas
+print(f'Seu Salário é de R$ {salario_mes:.2f} reais')
