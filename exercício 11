@@ -1,0 +1,11 @@
+"""Exercício 11"""
+
+int_1 = int(input('Digite um numero inteiro (Exemplo 2 ou 4 ou 10): '))
+int_2 = int(input('Digite outro numero inteiro (Exemplo 2 ou 4 ou 10): '))
+real = float(input('Digite um numero real (exemplo 2.5, 3.7, 8.9): '))
+dobro_do_primeiro = (int_1 * 2) + (int_2 / 2)
+triplo = (int_1 * 3) + real
+terceiro_elevado = real ** 3
+print(f'O dorbo do primeiro com a 1/2 do segundo é {dobro_do_primeiro}')
+print(f'A soma do triplo com o terceiro é {triplo}')
+print(f'O terceiro elevado ao cubo é {terceiro_elevado}')
