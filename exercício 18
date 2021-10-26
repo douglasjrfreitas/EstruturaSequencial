@@ -1,0 +1,6 @@
+"""Exercício 18"""
+
+tamanho_arquivo = float(input('Digite o tamanho do arquivo(em MB): '))
+velocidade_internet = float(input('Digite a velocidade de sua internet (em Mbps):'))
+tempo_download = tamanho_arquivo /(velocidade_internet / 8)
+print(f'Seu arqvuivo será baixado em aproximadamente : {tempo_download:.2f} minutos')
