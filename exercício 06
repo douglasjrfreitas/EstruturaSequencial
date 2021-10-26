@@ -1,0 +1,6 @@
+"""Exercício 6"""
+
+raio = float(input('Digite o raio de um circulo: '))
+p = 3.1416
+area = p * (raio ** 2)
+print(f'A area do circulo é: {area:.2f}')
