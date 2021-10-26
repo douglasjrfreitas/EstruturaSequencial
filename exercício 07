@@ -1,0 +1,6 @@
+"""Exercício 7"""
+
+quadrado = float(input('Digite um lado do quadrado (x.xx): '))
+area = quadrado * quadrado
+area_dobro = area * 2
+print(f'A area do quadrado {quadrado} * {quadrado} é {area}, e seu dobro é {area_dobro}')
