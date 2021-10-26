@@ -1,0 +1,4 @@
+"""Exercício 2"""
+
+numero = input('Digite um número: ')  #input entrada de dados, para armazenar valor em python usa-se variavel
+print(f'O número infromado foi {numero}')  #f - format string
