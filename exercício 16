@@ -1,0 +1,12 @@
+"""Exercício 16"""
+
+import math  # importando modulo
+
+area_a_ser_pintada = int(input('Digite a área, em metros quadrados a ser pintada: ')) #areas em metros quadrados
+area_com_folga = area_a_ser_pintada * 1.1  #ponto flutuante(float)
+litros_por_metro = 3
+litros_a_serem_usados = area_com_folga / litros_por_metro
+litros_por_lata = 18
+numero_de_latas = math.ceil(litros_a_serem_usados / litros_por_lata)  #arredondando para cim
+valor_com_apenas_latas = numero_de_latas * 80
+print(f'Você deverá usar {numero_de_latas} latas de 18 litros, no valor de R$ {valor_com_apenas_latas} reais.')
